@@ -211,11 +211,11 @@ export default function Layout() {
               <div className="flex flex-col gap-3 text-sm text-[#a89f95]">
                 <div>
                   <p className="font-medium text-white mb-0.5">Address</p>
-                  <p>123 Grace Boulevard<br />Atlanta, GA 30301</p>
+                  <p>LakeSide Kokonte Junction<br />Accra, GHANA</p>
                 </div>
                 <div>
                   <p className="font-medium text-white mb-0.5">Phone</p>
-                  <p>(404) 555-0182</p>
+                  <p>+233 24 123 4567</p>
                 </div>
                 <div>
                   <p className="font-medium text-white mb-0.5">Email</p>
