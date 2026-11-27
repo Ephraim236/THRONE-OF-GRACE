@@ -1,0 +1,10 @@
+{
+  "description": "This modern church website offers a vibrant platform for community engagement with a voting system and an online store for church merchandise.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

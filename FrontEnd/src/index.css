@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f1f26;
+  --card: #f4f7f9;
+  --card-foreground: #1a2e38;
+  --primary: #1a7a8c;
+  --primary-foreground: #ffffff;
+  --secondary: #ede8f8;
+  --secondary-foreground: #3b1d72;
+  --muted: #eaf2f5;
+  --muted-foreground: #4a7a8a;
+  --accent: #c9951a;
+  --accent-foreground: #0a0806;
+  --border: rgba(26, 122, 140, 0.15);
+  --ring: #c9951a;
+  --radius: 0.5rem;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+*:hover {
+  scrollbar-color: rgba(201, 149, 26, 0.3) transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.font-display {
+  font-family: 'Playfair Display', serif;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #c9951a 0%, #f0d060 50%, #c9951a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.teal-purple-gradient {
+  background: linear-gradient(135deg, #e8f4f7 0%, #ede8f8 60%, #e8f4f7 100%);
+}
+
+.hero-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(8, 30, 38, 0.55) 0%,
+    rgba(30, 15, 56, 0.45) 50%,
+    rgba(8, 30, 38, 0.82) 100%
+  );
+}
+
+.gold-border {
+  border: 1px solid rgba(201, 149, 26, 0.35);
+}
+
+.glow-gold {
+  box-shadow: 0 0 20px rgba(201, 149, 26, 0.2), 0 0 40px rgba(201, 149, 26, 0.08);
+}
+
+.section-divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(201, 149, 26, 0.4), transparent);
+}
