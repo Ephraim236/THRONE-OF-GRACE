@@ -374,11 +374,11 @@ export default function Vote() {
                   className="group flex flex-col overflow-hidden rounded-lg border bg-white transition-shadow hover:shadow-md"
                   style={{ borderColor: isVoted ? '#8b5a2b' : '#e6ded4' }}
                 >
-                  <div className="relative aspect-[4/3] overflow-hidden bg-[#efe9e1]">
+                  <div className="relative overflow-hidden bg-[#efe9e1]">
                     <img
                       src={n.photo}
                       alt={n.name}
-                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                      className="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                     />
                     {isLeading && (
                       <span className="absolute left-3 top-3 rounded-full bg-[#1f1a17]/85 px-3 py-1 text-[10px] font-semibold uppercase tracking-widest text-[#c9951a]">
